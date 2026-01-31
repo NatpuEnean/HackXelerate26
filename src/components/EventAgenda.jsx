@@ -21,31 +21,47 @@ const agendaData = {
         title: "Round One Evaluation and Elimination",
       },
       {
-        time: "9:00 AM - 9:30 AM",
-        title: "Inauguration Ceremony",
+        time : "5:00 PM - 8:00 Pm",
+        title : "Round two",
       },
       {
-        time: "9:00 AM - 9:30 AM",
-        title: "Inauguration Ceremony",
+        time : "8:00 PM - 8:45 PM",
+        title : "Dinner",
       },
       {
-        time: "9:00 AM - 9:30 AM",
-        title: "Inauguration Ceremony",
+        time : "8:45P PM - 10:00 PM",
+        title : "Round Two",
       }
+     
     ]
   },
   day2: {
-    date: "21 February, 2026",
+    date: "28 March, 2026",
     events: [
       {
-        time: "09:00 AM - 11:00 AM",
-        title: "Coding Contest",
-        points: ["Open for all departments"]
+        time: "5:00 AM - 8:00 AM",
+        title: "Round Two",
+       
       },
       {
-        time: "11:30 AM - 02:00 PM",
-        title: "Gaming & Fun Events",
-        points: ["Valorant", "BGMI", "FIFA"]
+        time: "8:00 AM - 8:45 AM",
+        title: "Breakfast",
+      },
+      {
+        time : "8:45 AM - 12:15 PM",
+        title : "Round Two",
+      },
+      {
+        time : "12:15 PM - 1:15 PM",
+        title : "Round Two Evaluation",
+      },
+      {
+        time : "1:15 PM - 2:00 PM",
+        title : "Lunch",
+      },
+      {
+        time : "2:00 PM - 3:00 PM",
+        title : "Valedictory",
       }
     ]
   }
