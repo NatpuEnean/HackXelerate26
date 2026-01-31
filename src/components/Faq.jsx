@@ -3,28 +3,30 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 
 const faqs = [
   {
-    question: "How many events a delegate can participate?",
-    answer: "A delegate can participate in up to 3 events."
+    question: "What is HackXelerate’26?",
+    answer: "HackXelerate’26 is a national-level offline hackathon where students come together to innovate and build solutions."
   },
   {
-    question: "What is the last date for registration?",
-    answer: "The last date for registration will be announced soon."
+    question: "Who can participate?",
+    answer: "Students from any college, stream, and year across India are welcome to participate."
   },
   {
-    question: "What are the supporting facilities provided on behalf of institution?",
-    answer: "Food, accommodation and transport support will be provided."
+    question: "How many members can be in a team?",
+    answer: "Each team can have 4 to 6 members, and a participant can be part of only one team."
   },
   {
-    question: "What are the Policies to be followed?",
-    answer: "All delegates must carry their ID cards and follow code of conduct."
+    question: "How does the hackathon take place?",
+    answer: "The event begins with an abstract submission, followed by an on-campus hackathon conducted in two rounds."
+
   },
   {
-    question: "What is the advantage of group registration from a particular college?",
-    answer: "Group registration offers discounted pricing and priority access."
+    question: "What facilities are provided?",
+    answer: "Food and refreshments are provided to all participants. Accommodation is provided only for Round 2 shortlisted teams."
   },
   {
-    question: "How about parking facilities for vehicles?",
-    answer: "Parking space is available inside the campus for all participants."
+    question: "Where can I get regular updates about the event?",
+    answer: "All updates and important announcements will be shared through the official communication channels with the registered team leader."
+
   }
 ];
 
