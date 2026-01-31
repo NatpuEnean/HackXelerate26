@@ -6,12 +6,12 @@ import { TiLocationArrow } from "react-icons/ti";
 
 import Button from "./Button";
 
-const navItems = ["Home", "Vault", "Prologue", "About", "Contact"];
+const navItems = ["Home", "Gallery", "Agenda", "FAQ", "Contact"];
 
 const NavBar = () => {
   // State for toggling audio and visual indicator
-  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(true);
+  const [isIndicatorActive, setIsIndicatorActive] = useState(true);
 
   // Refs for audio and navigation container
   const audioElementRef = useRef(null);

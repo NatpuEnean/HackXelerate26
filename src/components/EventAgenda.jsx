@@ -56,7 +56,7 @@ export default function EventAgenda() {
   const day = agendaData[activeDay];
 
   return (
-    <section className="min-h-screen bg-black text-white px-6 py-20">
+    <section id="agenda" className="min-h-screen bg-black text-white px-6 py-20">
 
       {/* CENTERED HEADER SECTION */}
       <div className="flex flex-col items-center text-center mb-16">
