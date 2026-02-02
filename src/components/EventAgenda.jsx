@@ -95,9 +95,10 @@ export default function EventAgenda() {
             Day 1
           </button>
 
-          <div className="w-1/3 flex items-center justify-center text-xl font-semibold">
-            {day.date}
-          </div>
+       <h2 className="w-1/3 flex items-center justify-center text-xl font-semibold select-none">
+  {day.date}
+</h2>
+
 
           <button
             onClick={() => setActiveDay("day2")}
