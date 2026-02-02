@@ -4,11 +4,11 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 const faqs = [
   {
     question: "What is HackXelerate’26?",
-    answer: "HackXelerate’26 is a national-level offline hackathon where students come together to innovate and build solutions."
+    answer: "HackXelerate’26 is a national-level hackathon where students come together to innovate and build solutions."
   },
   {
     question: "Who can participate?",
-    answer: "Students from any college, stream, and year across India are welcome to participate."
+    answer: "Students from any college and year across India are welcome to participate."
   },
   {
     question: "How many members can be in a team?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "Where can I get regular updates about the event?",
-    answer: "All updates and important announcements will be shared through the official communication channels with the registered team leader."
+    answer: "All updates and important announcements will be shared to the team leader's registered email and Whatsapp."
 
   }
 ];
