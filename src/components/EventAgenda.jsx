@@ -104,7 +104,7 @@ export default function EventAgenda() {
             onClick={() => setActiveDay("day2")}
             className={`w-1/3 py-4 text-xl font-semibold transition ${
               activeDay === "day2"
-                ? "bg-blue-600"
+                ? "bg-[#c17817]"
                 : "text-gray-400"
             }`}
           >
