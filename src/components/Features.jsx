@@ -105,7 +105,7 @@ const Features = () => (
   <h1 className="special-font hero-heading text-blue-100 
                  text-left mt-6 
                  md:text-center md:mt-0">
-    G<b>a</b>llery
+    G<b className="text-[#ab1d1d]">a</b>llery
   </h1>
 </div>
 
@@ -122,12 +122,10 @@ const Features = () => (
 
       <div className="grid  w-full grid-cols-2  gap-7">
         
-<BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
-          <BentoCard
-            src="videos/hvid.mp4"
-          
-          />
-        </BentoTilt>
+<BentoTilt className="bento-tilt_1 hidden md:block row-span-1 md:col-span-1 md:row-span-2">
+  <BentoCard src="videos/hvid.mp4" />
+</BentoTilt>
+
         
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-1">
@@ -142,7 +140,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-1">
            <img
-            src="img/img1.webp"
+            src="img/img2.webp"
            
             className="size-full object-cover object-center"
           />

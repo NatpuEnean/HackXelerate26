@@ -79,7 +79,7 @@ export default function EventAgenda() {
 
         <h1 className="text-5xl md:text-6xl font-bold max-w-4xl leading-tight mb-12">
           HackXelerate'26{" "}
-          <span className="text-blue-500">Agenda</span>
+          <span className="text-[#c17817]">Agenda</span>
         </h1>
 
         {/* Day Selector */}
@@ -88,7 +88,7 @@ export default function EventAgenda() {
             onClick={() => setActiveDay("day1")}
             className={`w-1/3 py-4 text-xl font-semibold transition ${
               activeDay === "day1"
-                ? "bg-blue-600"
+                ? "bg-[#c17817]"
                 : "text-gray-400"
             }`}
           >

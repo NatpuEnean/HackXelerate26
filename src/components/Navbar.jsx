@@ -10,8 +10,8 @@ const navItems = ["Home", "Gallery", "Agenda", "FAQ", "Contact"];
 
 const NavBar = () => {
   // State for toggling audio and visual indicator
-  const [isAudioPlaying, setIsAudioPlaying] = useState(true);
-  const [isIndicatorActive, setIsIndicatorActive] = useState(true);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
+  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
 
   // Refs for audio and navigation container
   const audioElementRef = useRef(null);
@@ -35,6 +35,9 @@ const NavBar = () => {
       audioElementRef.current.pause();
     }
   }, [isAudioPlaying]);
+
+
+
 
   useEffect(() => {
     if (currentScrollY === 0) {
@@ -71,7 +74,7 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            <img src="/img/logo.png" alt="logo" className="w-10 h-auto rounded-2xl" />
 
             <Button
               id="reg-btn"

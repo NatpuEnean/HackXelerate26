@@ -16,7 +16,7 @@ const Hero = () => {
   const [loading, setLoading] = useState(true);
   const [loadedVideos, setLoadedVideos] = useState(0);
 
-  const totalVideos = 4;
+  const totalVideos = 2;
   const nextVdRef = useRef(null);
 
   const handleVideoLoad = () => {
@@ -83,7 +83,7 @@ const Hero = () => {
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
 
   return (
-    <div id="home" className="relative h-dvh w-screen overflow-x-hidden">
+    <div id="home`" className="relative h-dvh w-screen overflow-x-hidden">
       {loading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
           {/* https://uiverse.io/G4b413l/tidy-walrus-92 */}
@@ -141,13 +141,13 @@ const Hero = () => {
         </div>
 
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          2<b>0</b>26
+          2<b>0</b><span className="text-[#ab1d1d]">26</span>
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
-             Hack<b>X</b>elerate
+             Hack<b className="text-[#ab1d1d]">X</b>elerate
             </h1>
 
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
