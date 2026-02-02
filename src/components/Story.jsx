@@ -107,12 +107,12 @@ const FloatingImage = () => {
               into a world of coding challenges, collaborative projects, and
               endless opportunities to showcase your skills.
             </p>
-
+<a href="https://unstop.com/o/gF5SJXC?utm_medium=Share&utm_source=logged_out_user&utm_campaign=Online_coding_challenge">
             <Button
               id="reg-btn"
               title="Register Now"
               containerClass="mt-5"
-            />
+            /></a>
           </div>
         </div>
       </div>

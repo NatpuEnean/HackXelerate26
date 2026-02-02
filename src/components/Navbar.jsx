@@ -76,12 +76,14 @@ const NavBar = () => {
           <div className="flex items-center gap-7">
             <img src="/img/logo.png" alt="logo" className="w-10 h-auto rounded-2xl" />
 
-            <Button
-              id="reg-btn"
-              title="Register Now"
-              rightIcon={<TiLocationArrow />}
-              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
-            />
+          <a href="https://unstop.com/o/gF5SJXC?utm_medium=Share&utm_source=logged_out_user&utm_campaign=Online_coding_challenge">
+  <Button
+    id="reg-btn"
+    title="Register Now"
+    rightIcon={<TiLocationArrow />}
+    containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+  />
+</a>
           </div>
 
           {/* Navigation Links and Audio Button */}

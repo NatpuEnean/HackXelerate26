@@ -156,13 +156,13 @@ const Hero = () => {
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
               Unleash your skills <br />show the world what you got
             </p>
-
+<a href="https://unstop.com/o/gF5SJXC?utm_medium=Share&utm_source=logged_out_user&utm_campaign=Online_coding_challenge">
             <Button
               id="reg-btn"
               title="Register Now"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
-            />
+            /></a>
           </div>
         </div>
       </div>

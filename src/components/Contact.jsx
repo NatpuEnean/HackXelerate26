@@ -37,8 +37,8 @@ const Contact = () => {
             title="J<b>o</b>in us n<b>o</b>w"
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
-
-          <Button title="Register now" containerClass="mt-10 cursor-pointer" />
+<a href="https://unstop.com/o/gF5SJXC?utm_medium=Share&utm_source=logged_out_user&utm_campaign=Online_coding_challenge">
+          <Button title="Register now" containerClass="mt-10 cursor-pointer" /></a>
         </div>
       </div>
     </div>
