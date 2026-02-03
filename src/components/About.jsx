@@ -35,7 +35,7 @@ const About = () => {
         <p className="font-general text-sm uppercase md:text-[10px]">
           Event Start's in
         </p>
-<CountdownTimer targetDate="2026-03-27T10:00:00" />
+<CountdownTimer targetDate="2026-04-09T10:00:00" />
 
         <div className="about-subtext">
           <p>The hackathon is about to begin</p>
