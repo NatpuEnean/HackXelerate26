@@ -17,7 +17,6 @@ const faqs = [
   {
     question: "How does the hackathon take place?",
     answer: "The event begins with an abstract submission, followed by an on-campus hackathon conducted in two rounds."
-
   },
   {
     question: "What facilities are provided?",
@@ -25,10 +24,10 @@ const faqs = [
   },
   {
     question: "Where can I get regular updates about the event?",
-    answer: "All updates and important announcements will be shared to the team leader's registered email and Whatsapp."
-
+    answer: "All updates and important announcements will be shared to the team leader's registered email and <a href='https://whatsapp.com/channel/0029Vb2w0RB2kNFxBXlBA33J' target='_blank' style='color: green; font-weight: bold; text-decoration: underline;'>WhatsApp</a>."
   }
 ];
+
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -76,9 +75,9 @@ export default function FAQ() {
         </button>
 
         {openIndex === index && (
-          <p className="mt-4 text-gray-400 leading-relaxed">
-            {faq.answer}
-          </p>
+        
+            <p dangerouslySetInnerHTML={{ __html: faq.answer }} className="mt-4 text-gray-400 leading-relaxed" />
+          
         )}
       </div>
     ))}

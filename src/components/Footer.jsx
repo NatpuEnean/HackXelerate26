@@ -25,13 +25,18 @@ const Footer = () => {
   </div>
 </div>
 
+<div className="text-center space-y-3 md:text-left flex flex-col">
+  <a href="mailto:hackxelerate@gmail.com" className="font-bold">
+    hackxelerate@gmail.com
+  </a>
+  <a href="https://www.instagram.com/kprietonline?igsh=NTd3MnNsdW4wazR6" className="font-bold">
+    @kprietonline
+  </a>
+  <a href="https://www.instagram.com/vyabhatech?igsh=OWw1ZGNlNGR5eW1t" className="font-bold">
+    @vyabhatech
+  </a>
+</div>
 
-        <a
-          href="mailto:hackxelerate@gmail.com"
-          className="font-bold"
-        >
-          hackxelerate@gmail.com
-        </a>
       </div>
     </footer>
   );

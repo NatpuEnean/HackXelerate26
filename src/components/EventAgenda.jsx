@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const agendaData = {
   day1: {
-    date: "27 March, 2026",
+    date: "09 April, 2026",
     events: [
       {
         time: "8:00 AM - 9:00 AM",
@@ -36,7 +36,7 @@ const agendaData = {
     ]
   },
   day2: {
-    date: "28 March, 2026",
+    date: "10 April, 2026",
     events: [
       {
         time: "5:00 AM - 8:00 AM",
