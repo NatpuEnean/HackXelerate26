@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import Button from "./Button";
 import VideoPreview from "./VideoPreview";
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
@@ -84,16 +85,7 @@ const Hero = () => {
 
   return (
     <div id="home`" className="relative h-dvh w-screen overflow-x-hidden">
-      {loading && (
-        <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
-          {/* https://uiverse.io/G4b413l/tidy-walrus-92 */}
-          <div className="three-body">
-            <div className="three-body__dot"></div>
-            <div className="three-body__dot"></div>
-            <div className="three-body__dot"></div>
-          </div>
-        </div>
-      )}
+   
 
       <div
         id="video-frame"
@@ -101,8 +93,8 @@ const Hero = () => {
       >
         <div>
           <div className="mask-clip-path absolute-center absolute z-10 size-64 cursor-pointer overflow-hidden rounded-lg">
-            <VideoPreview>
-               <div
+             <VideoPreview>
+              <div
                 onClick={handleMiniVdClick}
                 className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
               >
