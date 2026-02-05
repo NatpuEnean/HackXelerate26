@@ -171,7 +171,7 @@ const Hero = () => {
   id="reg-btn"
   title="Register Now"
   leftIcon={<TiLocationArrow />}
-  containerClass="bg-[#ab1d1d] flex-center gap-2 px-8 py-4 text-lg text-white"
+  containerClass="!bg-[#ab1d1d] flex-center gap-2 px-8 py-4 text-lg text-white"
 />
             </a>
           </div>
