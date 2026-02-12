@@ -25,17 +25,24 @@ const Footer = () => {
   </div>
 </div>
 
-<div className="text-center space-y-3 md:text-left flex flex-col">
-  <a href="mailto:hackxelerate@gmail.com" className="font-bold">
+<div className="text-center md:text-right flex flex-col space-y-4 px-6 md:px-12">
+  <a href="mailto:hackxelerate@gmail.com" className="font-bold break-words">
     hackxelerate@gmail.com
   </a>
-  <a href="https://www.instagram.com/kprietonline?igsh=NTd3MnNsdW4wazR6" className="font-bold">
+  <a
+    href="https://www.instagram.com/kprietonline?igsh=NTd3MnNsdW4wazR6"
+    className="font-bold"
+  >
     kprietonline
   </a>
-  <a href="https://www.instagram.com/vyabhatech?igsh=OWw1ZGNlNGR5eW1t" className="font-bold">
+  <a
+    href="https://www.instagram.com/vyabhatech?igsh=OWw1ZGNlNGR5eW1t"
+    className="font-bold"
+  >
     vyabhatech
   </a>
 </div>
+
 
       </div>
     </footer>
