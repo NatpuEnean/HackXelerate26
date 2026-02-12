@@ -30,10 +30,10 @@ const Footer = () => {
     hackxelerate@gmail.com
   </a>
   <a href="https://www.instagram.com/kprietonline?igsh=NTd3MnNsdW4wazR6" className="font-bold">
-    @kprietonline
+    kprietonline
   </a>
   <a href="https://www.instagram.com/vyabhatech?igsh=OWw1ZGNlNGR5eW1t" className="font-bold">
-    @vyabhatech
+    vyabhatech
   </a>
 </div>
 
